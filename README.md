@@ -5,3 +5,5 @@ Data: The data for this application is imported from tensorflow.keras.datasets.m
 Program: This model extensively uses the keras library included with tensorflow to create the convolution model. 
 
 The model compilation automatically stops before 10 epochs after the prediction accuracy of the model exceed 99.5%. Each epoch does take a while to complete and took me on average 40s to go through each. The output of the program will be included in the form a screenshot. 
+
+![Alt text](image.png)
