@@ -25,7 +25,6 @@ def reshape_and_normalize(images):
     return images
 
 
-(training_images, _), _ = tf.keras.datasets.mnist.load_data()
 training_images = reshape_and_normalize(training_images)
 
 print(f"Maximum pixel value after normalization: {np.max(training_images)}\n")
